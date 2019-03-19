@@ -22,8 +22,8 @@ class TodoApp extends React.Component {
             onChange={this.handleChange}
             value={this.state.text}
           />
-          <button>
-            Add #{this.state.items.length + 1}
+          <button style={{backgroundColor: 'yellow', color: '#fff'}}>
+            增加 #{this.state.items.length + 1}
           </button>
         </form>
       </div>
