@@ -23,7 +23,7 @@ class TodoApp extends React.Component {
             value={this.state.text}
           />
           <button>
-            Add #{this.state.items.length + 1}
+            增加 #{this.state.items.length + 1}
           </button>
         </form>
       </div>
